@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="box1">
+
+        <h1>Weather API</h1>
+
+
+        <div class="box2">
+        <form >
+
+
+
+
+          <div class="form1">
+            <input type="text" id="userLocation" value=""> 
+          </div> 
+            
+          
+          <div class="form1">
+            <input type="text" id="userAccess" value=""> 
+          </div>
+          
+
+
+            <div class="form2">
+             <button type="button" id="button" onclick= {submitData()}>Submit</button>
+            </div>
+            <div id="errorOutput1"></div>  
+
+
+        </form>
+        </div>
+
+    </div>
+     
+    <div class="heading2">
+      <h1>Weather Data</h1>
+    </div>
+
+    <div class="box3">
+      
+      <div id="loco"><p class="space">Location:</p> <p id="location_ash"></p></div>
+
+      <div class="no2">
+
+        <div id="lat" class="no1"><p class="space">Lat:</p><p id="lat_ash"></p></div>
+        <div id="lon" class="no1"><p class="space">Long:</p> <p id="lon_ash"></p></div>
+
+      </div>
+
+      <div id="time"><p class="space">TimeZone:</p> <p id="time_ash"></p></div>
+      <div id="winds"><p class="space">Wind Speed:</p> <p id="winds_ash"></p></div>
+      <div id="pres"><p class="space">Pressure:</p> <p id="pres_ash"></p></div>
+      <div id="humi"><p class="space">Humidity:</p> <p id="humi_ash"></p></div>
+      <div id="windd"><p class="space">Wind Direction:</p> <p id="windd_ash"></p></div>
+      <div id="uv"><p class="space">UV Index:</p> <p id="uv_ash"></p></div>
+      <div id="feel"><p class="space">Feels Like:</p> <p id="feel_ash"></p></div>
+     
+    </div>
+
+<script src="./java.js"></script>
+</body>
+</html>

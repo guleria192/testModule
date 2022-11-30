@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    height: 520px;
+    border: 2px solid;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    background-color: rgb(2, 2, 2);
+}
+
+.box1 h1{
+    font-size: 100px;
+    font-family: 'Inter', sans-serif;
+    color:#FFFFFF;
+    margin-bottom: 40px;
+   
+}
+
+.box2{
+height: 230px; 
+ /* border: 2px solid blue; */
+}
+
+
+form{
+    
+    height: 230px;
+    /* border: 2px solid green; */
+}
+
+.form1{
+    height: 55px;
+    margin: 20px;
+}
+
+#userLocation{
+    background-color: transparent;
+    border: 1px solid   #FFFFFF;
+    width: 85%;
+    height: 70%;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+#userAccess{
+    background-color: transparent;
+    border: 1px solid  #FFFFFF;
+    width: 85%;
+    height: 70%;  
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+.form2{
+    position: absolute;
+    left: 125px;
+}
+
+#button{
+    width: 200px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFFFF;;
+}
+
+
+
+.heading2 h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    margin-left: 40px;
+}
+
+.box3{
+    position: absolute;
+    height: 1000px;
+    border: 1px solid;
+    margin-left: 40px;
+    width: 90%;
+}
+
+#loco{
+    display: flex;
+    height: 54px;
+   
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 50px;
+}
+
+.no2{
+    display: flex;
+}
+
+#lat{
+    height: 54px;
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 50px;
+}
+
+#lon{
+    height: 54px;
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 50px;
+}
+
+#time{
+    display:flex;
+    height: 54px;
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 50px;
+}
+
+#winds{
+    display:flex;
+    height: 54px;
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 50px;
+}
+
+#pres{
+    display:flex;
+    height: 54px;
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 50px;
+}
+
+#humi{
+    display:flex;
+    height: 54px;
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 50px;
+}
+
+#windd{
+    display:flex;
+    height: 54px;
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 50px;
+}
+
+#uv{
+    display:flex;
+    height: 54px;
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 50px;
+}
+
+#feel{
+    display:flex;
+    height: 54px;
+    margin-top: 50px;
+    margin-left: 55px;
+    font-size: 50px;
+}
+
+.space{
+    margin-right: 40px;
+}
+
+.no1{
+    display: flex;
+}
+
+#errorOutput1 {
+    color: rgb(221, 21, 21);
+}
